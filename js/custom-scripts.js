@@ -561,7 +561,7 @@
      * CONTACT FORM 2
      * ============================
     */
-    $("#contact-form").on('submit', function(e) {
+    /*$("#contact-form").on('submit', function(e) {
       e.preventDefault();
       var success = $(this).find('.email-success'),
         failed = $(this).find('.email-failed'),
@@ -605,7 +605,7 @@
       }
 
       return false;
-    });
+    });*/
 
 
 
