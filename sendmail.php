@@ -9,7 +9,7 @@ $company = trim($_POST['company']);
 $subject = trim($_POST['subject']);
 $message = trim($_POST['message']);
 
-echo $name . ' ' .$email . ' ' $company . ' ' $subject . ' ';
+echo $name . ' ' .$email . ' '. $company . ' '. $subject . ' ';
 if( isset($name) && isset($email) ) {
 
 	// Avoid Email Injection and Mail Form Script Hijacking
