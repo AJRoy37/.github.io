@@ -1,3 +1,6 @@
+<?php include_once("analyticstracking.php") ?>
+
+
 <?php
 // Variables
 $name = trim($_POST['name']);
@@ -16,7 +19,7 @@ if( isset($name) && isset($email) ) {
 	}
 
 	// Email will be send
-	$to = "ajroy1979@gmail.com"; // Change with your email address
+	$to = "Audrick.Roy1@etudiant.cegeplimoilou.ca"; // Change with your email address
 	$sub = "$subject from CV"; // You can define email subject
 	// HTML Elements for Email Body
 	$body = <<<EOD
@@ -33,6 +36,7 @@ EOD;
 
 	// PHP email sender
 	mail($to, $sub, $body, $headers);
+    echo 'Success';
 }
 
 
