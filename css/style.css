@@ -3991,10 +3991,15 @@ section.section {
 
 .cfcma-full img {
 	height: auto;
-	width: 80%!important;
+	width: 70%!important;
 	margin: 0 auto;
 }
 
+.mslc-full img {
+	height: auto;
+	width: 60%!important;
+	margin: 0 auto;
+}
 .armoire img {
 	height: auto;
 	width: 40% !important;
@@ -4025,6 +4030,11 @@ section.section {
 	margin: auto;
 }
 
+
+.projet1 img {
+    width: 95%;
+    margin: auto
+}
 
 /* TEXTE   */
 
