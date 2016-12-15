@@ -4056,7 +4056,10 @@ section.section {
 	font-size: .8em!important;
 }
 
-
+.text-projet{
+    font-size: 1.1em;
+    text-shadow: 3px 3px #000;
+}
 /*        MEDIA QUERIES      */
 
 @media (max-width: 767px) {
