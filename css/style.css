@@ -4008,8 +4008,14 @@ section.section {
 
 /*. IMAGES  */
 
-.horror-img img {
-    width: 25%;
+.horror-app img {
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.horror-app-detail img {
+    width: 10%;
     height: auto;
     margin: 0 auto;
 }
