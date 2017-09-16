@@ -228,7 +228,7 @@ a:focus {
     -webkit-background-size: cover;
 }
 
-.body-video-bg > .section-video {
+.body-video-bg>.section-video {
     position: fixed;
     top: 0;
     left: 0;
@@ -993,14 +993,14 @@ section.section {
     perspective: 1000;
 }
 
-.single-form .form-control:focus + .input-label .label-text {
+.single-form .form-control:focus+.input-label .label-text {
     font-size: 11px;
     color: #f7ac54;
     -webkit-transform: translate3d(0, -26px, 0);
     transform: translate3d(0, -26px, 0);
 }
 
-.single-form .form-control:focus + .input-label::after {
+.single-form .form-control:focus+.input-label::after {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
@@ -2084,15 +2084,15 @@ section.section {
     color: #ffffff;
 }
 
-.pagination-style-1 > .owl-controls {
+.pagination-style-1>.owl-controls {
     text-align: center;
 }
 
-.pagination-style-1 > .owl-controls .owl-pagination {
+.pagination-style-1>.owl-controls .owl-pagination {
     float: none;
 }
 
-.pagination-style-1 > .owl-controls .owl-pagination .owl-page {
+.pagination-style-1>.owl-controls .owl-pagination .owl-page {
     float: left;
     width: 30px;
     margin: 39px 20px 1px 20px;
@@ -2156,10 +2156,10 @@ section.section {
     text-transform: uppercase;
 }
 
-.contact-footer > a,
-.contact-footer .nav > li,
-.contact-footer > a a,
-.contact-footer .nav > li a {
+.contact-footer>a,
+.contact-footer .nav>li,
+.contact-footer>a a,
+.contact-footer .nav>li a {
     font-size: 14px;
     line-height: 27px;
     font-weight: 400;
@@ -2168,10 +2168,10 @@ section.section {
     background-color: transparent;
 }
 
-.contact-footer > a:hover,
-.contact-footer .nav > li:hover,
-.contact-footer > a a:hover,
-.contact-footer .nav > li a:hover {
+.contact-footer>a:hover,
+.contact-footer .nav>li:hover,
+.contact-footer>a a:hover,
+.contact-footer .nav>li a:hover {
     background-color: transparent;
 }
 
@@ -2424,31 +2424,31 @@ section.section {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .team-member .each-item:nth-child(n + 3) {
+    .team-member .each-item:nth-child(n+3) {
         padding-top: 50px;
     }
     .team-member .each-item:nth-child(2n - 1):before {
         border-color: transparent;
     }
-    .team-member .each-item:nth-last-child(-n + 2) {
+    .team-member .each-item:nth-last-child(-n+2) {
         padding-bottom: 0;
     }
-    .team-member .each-item:nth-last-child(-n + 2):after {
+    .team-member .each-item:nth-last-child(-n+2):after {
         border-color: transparent;
     }
 }
 
 @media (min-width: 992px) {
-    .team-member .each-item:nth-child(n + 5) {
+    .team-member .each-item:nth-child(n+5) {
         padding-top: 50px;
     }
-    .team-member .each-item:nth-child(4n + 1):before {
+    .team-member .each-item:nth-child(4n+1):before {
         border-color: transparent;
     }
-    .team-member .each-item:nth-last-child(-n + 4) {
+    .team-member .each-item:nth-last-child(-n+4) {
         padding-bottom: 0;
     }
-    .team-member .each-item:nth-last-child(-n + 4):after {
+    .team-member .each-item:nth-last-child(-n+4):after {
         border-color: transparent;
     }
 }
@@ -2756,22 +2756,22 @@ section.section {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .combine-section .grid-item .each-item:nth-child(n + 3) {
+    .combine-section .grid-item .each-item:nth-child(n+3) {
         padding-top: 50px;
     }
     .combine-section .grid-item .each-item:nth-child(2n - 1):before {
         border-color: transparent;
     }
-    .combine-section .grid-item .each-item:nth-last-child(-n + 2) {
+    .combine-section .grid-item .each-item:nth-last-child(-n+2) {
         padding-bottom: 0;
     }
-    .combine-section .grid-item .each-item:nth-last-child(-n + 2):after {
+    .combine-section .grid-item .each-item:nth-last-child(-n+2):after {
         border-color: transparent;
     }
 }
 
 @media (min-width: 992px) {
-    .combine-section .grid-item .each-item:nth-last-child(-n + 4):before {
+    .combine-section .grid-item .each-item:nth-last-child(-n+4):before {
         -webkit-transform: translate3d( 0, -100%, 0);
         transform: translate3d( 0, -100%, 0);
     }
@@ -3896,249 +3896,4 @@ section.section {
     opacity: 1;
     -webkit-transform: translate3d(0, -50%, 0);
     transform: translate3d(0, -50%, 0);
-}
-
-
-/*                            AjRoy custom css                          */
-
-
-/* BOUTONS */
-
-.back-to-top {
-    cursor: pointer;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-    background-color: #f9a81a;
-    padding: 0 6px;
-    border-radius: 25%;
-    color: #000;
-}
-
-.back-to-top:hover {
-    color: #f9a81a;
-    background-color: #000;
-}
-
-.btn.btn-fill {
-    background-color: #f9a81a;
-}
-
-
-/* SECTIONS */
-
-#services-section,
-#portfolio-section,
-#portfolio-section2,
-#team-section {
-    min-height: 800px;
-    margin-top: 60px;
-}
-
-.services-section .each-services .each-services-inner .features-icon {
-    font-size: 60px;
-    color: #f9a81a;
-}
-
-.competences {
-    /*    background-color: beige;*/
-    color: #fff;
-    opacity: .8;
-    font-size: 1.6em;
-    line-height: 1.5EM;
-}
-
-.content-detail {
-    margin: 0 -3%;
-}
-
-#portfolio-section2 {
-    background-color: beige;
-    color: #000;
-}
-
-.item {
-    max-height: 920px;
-}
-
-.horror {
-    width: 100%;
-    height: auto;
-}
-
-.competences li {
-    display: block;
-    opacity: 0;
-}
-
-@-webkit-keyframes typing {
-    from {
-        width: 0;
-    }
-}
-
-@-webkit-keyframes blink-caret {
-    50% {
-        border-color: #fff;
-        color: #fff;
-    }
-}
-
-.competences2 li {
-    color: #fff;
-    opacity: 1;
-    font: bold 1.2em monospace;
-    /*	border-right: .1em solid black;*/
-    width: calc(0.55em * 14);
-    width: 32ch;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: typing 1s steps(14, end), blink-caret 1.5s infinite alternate;
-    animation: typing 1s steps(14, end), blink-caret 1.5s infinite alternate;
-}
-
-
-/* .competences2 {
-	opacity: 1;
-	-webkit-animation-name: zoomIn;
-	animation-name: zoomIn;
-}*/
-
-
-/*. IMAGES  */
-
-.horror-img img {
-    width: 25%;
-    height: auto;
-    margin: 0 auto;
-}
-
-.cfcma-full img {
-    height: auto;
-    width: 70%!important;
-    margin: 0 auto;
-}
-
-.mslc-full img {
-    height: auto;
-    width: 60%!important;
-    margin: 0 auto;
-}
-
-.armoire img {
-    height: auto;
-    width: 40% !important;
-    margin: 0 auto;
-}
-
-.nostalgie-mobile img {
-    height: auto;
-    width: 50%!important;
-    margin: 0 auto;
-}
-
-.stationne-mobile img {
-    height: auto;
-    width: 30%!important;
-    margin: 0 auto;
-}
-
-.glr-mobile {
-    height: auto;
-    width: 30%!important;
-    margin: auto;
-}
-
-.horror img {
-    height: auto;
-    width: 25%!important;
-    margin: auto;
-}
-
-.projet1 img {
-    width: 95%;
-    margin: auto
-}
-
-
-/* TEXTE   */
-
-.heading2 {
-    font-size: 2em;
-    color: #f9a81a;
-}
-
-.texte-design h2,
-.texte-design a {
-    color: beige !important;
-}
-
-#portfolio-section2 h2,
-#portfolio-section2 a {
-    color: #000;
-}
-
-.content-detail p {
-    font-size: .8em!important;
-}
-
-.profile-content .position {
-    font-size: .8em!important;
-}
-
-.text-projet {
-    font-size: 1.1em;
-    text-shadow: 3px 3px #000;
-}
-
-
-/*        MEDIA QUERIES      */
-
-@media (max-width: 767px) {
-    .logo {
-        width: auto;
-        height: 100px;
-    }
-    .competences {
-        line-height: 1.5EM;
-    }
-    #portfolio-section,
-    #portfolio-section2 {
-        max-height: 1000px;
-    }
-    .stationne-mobile img {
-        height: auto;
-        width: 40%!important;
-        margin: 0 auto;
-    }
-    .project-detail-outer {
-        max-height: 1000px;
-        margin-top: -340px;
-    }
-    .project-detail-image-outer {
-        display: none;
-    }
-    .item {
-        max-height: 600px;
-        margin: auto;
-    }
-    .heading,
-    .section-heading {
-        font-size: 1.2em !important;
-    }
-    .item p {
-        font-size: .9em;
-    }
-    .inner {
-        font-size: .6em;
-    }
-    .intro,
-    .heading2 {
-        font-size: 1.8em !important;
-    }
-    .competences li {
-        text-align: left;
-        font-size: .7em !important;
-    }
 }
