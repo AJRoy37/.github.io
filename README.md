@@ -1,7 +1,5 @@
 # Portfolio
 
-`Created at Cegep Limoilou in November 2016`
+`Projet final du AEC en production de médias interactifs au Cegep Limoilou en November 2016`
 
-Copyright AJRoy
-
-
+Copyright AJRoy 2018
